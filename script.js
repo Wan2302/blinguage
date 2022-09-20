@@ -1,0 +1,1 @@
+alert("FOR WINDOWS USERS: by default, the page is zoomed in windows. To see the page as thought: zoom out to 80%.")
