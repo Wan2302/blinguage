@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -21,11 +23,6 @@ ul{
     list-style: none;
 }
 
-/* a{
-    text-decoration: none;
-    color: black;
-}
- */
 .header{
     display: flex;
     justify-content: space-between;
@@ -40,7 +37,7 @@ ul{
 }
 
 #logo{
-    max-height: 35px;
+    max-height: 2.188em;
     max-width: auto;
     cursor: pointer;
 }
@@ -49,21 +46,21 @@ ul{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50px;
+    gap: 3.125em;
 }
 
 #navbar{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 3.125em;
 }
 
 #header-button{
-    border: 2px solid black;
+    border: 0.125em solid black;
     color: black;
-    padding: 10px 20px;
+    padding: 0.625em 1.25em;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0.625em;
     background-color: transparent;
     font-weight: 900;
     font-size: 1em;
@@ -75,28 +72,28 @@ ul{
 }
 
 .hero{
-    margin-top: 110px;
-    max-width: 450px;
+    margin-top: 10em;
+    max-width: 28.125em;
 }
 
 .hero h1{
-    font-size: 80px;
+    font-size: 5em;
     font-weight: 900;
-    margin-bottom: 30px;
+    margin-bottom: 0.5em;
 }
 
 .hero p{
-    font-size: 22px;
-    margin-bottom: 50px;
+    font-size: 1.375em;
+    margin-bottom: 3.125em;
 }
 
 #hero-button{
-    border: 2px solid #372F7F;
+    border: 0.125em solid #372F7F;
     background-color: #372F7F;
     color: #FBF0DA;
-    padding: 15px 20px;
+    padding: 0.938em 1.25em;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 0.625em;
     font-weight: 900;
     font-size: 1em;
 }
@@ -109,21 +106,21 @@ ul{
 .cards{
     display: flex;
     flex-direction: row;
-    margin-top: 28em;
+    margin-top: 24em;
     margin-bottom: 10em;
     align-items: top;
-    gap: 200px;
+    gap: 12.5em;
     justify-content: space-around;
 }
 
 .cards img{
-    max-width: 70px;
-    margin-bottom: 40px;
+    max-width: 4.375em;
+    margin-bottom: 2.5em;
 }
 
 .cards p{
-    font-size: 18px;
-    max-width: 300px;
+    font-size: 1.125em;
+    max-width: 18.75em;
     line-height: 1.5em;
 }
 
@@ -150,7 +147,7 @@ ul{
     align-items:top;
     justify-content: center;
     margin-top: 4em;
-    gap: 120px;
+    gap: 7.5em;
     line-height: 1.5em;
 }
 
@@ -164,9 +161,9 @@ ul{
     width: 25em;
     height: 2.5em;
     margin-right: 5em; 
-    border-radius: 30px;
+    border-radius: 1.875em;
     font-size: 0.9em;
-    padding-left: 10px;
+    padding-left: 0.625em;
 }
 
 #subscribe{
@@ -182,7 +179,7 @@ ul{
 
 #subscribe:hover{
     background-color: transparent;
-    border: 2px solid black;
+    border: 0.125em solid black;
     color: black;
 }
 
